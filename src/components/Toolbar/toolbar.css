@@ -1,0 +1,58 @@
+.toolbar {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.toolbar_navs .logo {
+    font-size: 190%;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.toolbar_navs {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin: 0 5%;
+}
+
+.toolbar_navs ul {
+    list-style: none;
+    display: flex;
+    margin-left: 5%;
+}
+
+.toolbar_navs li {
+    padding: 0 10px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;font-size: 105%;
+    transition: .3s;
+}
+
+.nav_link:hover {
+    color: #bebebe;
+}
+
+.flex {
+    flex: 1;
+}
+
+.toggler_btn {
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+
+
+.toggler_btn i {
+    color: #ffffff;
+    font-size: 190%;
+}
