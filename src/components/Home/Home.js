@@ -1,8 +1,12 @@
 import React from 'react';
-import Header from '../Header/Header'
+import Toolbar from '../Toolbar/Toolbar';
+import Header from '../Header/Header';
+import NewAlbum from "../NewAlbums/NewAlbum";
 
 export default () => (
     <>
+      <Toolbar />
       <Header />
+      <NewAlbum />
     </>
 )

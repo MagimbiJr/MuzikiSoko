@@ -1,13 +1,10 @@
 import React from "react";
-import Toolbar from '../Toolbar/Toolbar';
-import NewAlbum from "../NewAlbums/NewAlbum"
 
 
 import "./header.css";
 
 export default () => (
     <>
-      <Toolbar />
       <header className="header">
         <div className="search_area">
           <div className="container">
@@ -15,6 +12,5 @@ export default () => (
           </div>
         </div>
       </header>
-      <NewAlbum />
     </>
 )
