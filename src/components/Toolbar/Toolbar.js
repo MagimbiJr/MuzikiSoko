@@ -24,7 +24,10 @@ export default () => (
                         <Link to="contact" className="nav_link">Contact Us</Link>
                     </li>
                     <li>
-                        <Link to="signin" className="nav_link">Log In</Link>
+                        <Link to="signin" className="nav_link account_btn">Signin</Link>
+                    </li>
+                    <li>
+                        <Link to="signup" className="nav_link account_btn">Signup</Link>
                     </li>
                 </ul>
                 <div className="flex" />

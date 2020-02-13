@@ -41,6 +41,22 @@
     color: #bebebe;
 }
 
+.account_btn {
+    background-color: #145986;
+    padding: 7px 25px;
+    border: #145986;
+    border-radius: 17px;
+}
+
+.account_btn:hover {
+    color: #ffffff;
+}
+
+.account_btn:active {
+    background-color: #08273b;
+}
+
+
 .flex {
     flex: 1;
 }
