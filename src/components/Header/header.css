@@ -11,7 +11,7 @@
 }
 
 .search_area {
-    width: 30%;
+    width: 35%;
     margin: 30px 0;
 }
 
@@ -30,4 +30,24 @@
 
 .search_area input:focus {
     outline: none;
+}
+
+@media (max-width: 1024px) {
+    .search_area {
+        width: 60%;
+    }
+}
+
+@media (max-width: 414px) {
+    .search_area {
+        width: 100%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .search_area input {
+        background: none;
+        background-color: #e9e9e9;
+        
+    }
 }

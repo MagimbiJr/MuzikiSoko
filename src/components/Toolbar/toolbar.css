@@ -56,3 +56,15 @@
     color: #ffffff;
     font-size: 190%;
 }
+
+
+@media (max-width: 812px) {
+    .toolbar_navs ul {
+        display: none;
+    }
+
+    
+    .toggler_btn {
+        display: block;
+    }
+}
