@@ -23,6 +23,9 @@ export default () => (
                     <li>
                         <Link to="contact" className="nav_link">Contact Us</Link>
                     </li>
+                    <li>
+                        <Link to="login" className="nav_link">Log In</Link>
+                    </li>
                 </ul>
                 <div className="flex" />
                 <button className="toggler_btn">
