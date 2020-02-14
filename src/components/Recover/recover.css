@@ -1,0 +1,83 @@
+.recover {
+    background: linear-gradient(#0000008e, #0000008e), url('../../assets/img/guitar-2.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.recover h3 {
+    color: #ffffff;
+    font-size: 160%;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.recover_block {
+    background-color: #f2f2f3;
+    border-radius: 7px;
+    padding: 60px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 2px #9c9c9c;
+}
+
+.recover_input {
+    border-bottom: 1px solid #c5d7e9;
+    margin: 10px 0;
+}
+
+.recover_input input {
+    padding: 10px 5px;
+    border: none;
+    background-color: transparent;
+    font-size: 104%;
+}
+
+.recover_input i {
+    padding: 10px;
+    font-size: 110%;
+    color: #145986;
+}
+
+.recover_btn {
+    padding: 10px 60px;
+    margin-top: 20px;
+    background-color: #145986;
+    color: #ffffff;
+    border: 1px solid #145986;
+    border-radius: 20px;
+    font-size: 105%;
+    transition: .3s;
+}
+
+.recover_btn:focus {
+    outline: none;
+}
+
+.recover_btn:active {
+    background-color: #08273b;
+    transition: .3s;
+}
+
+
+/* -------- MEDIA QUERY ------- */
+
+@media (max-width: 414px) {
+    input {
+        width: 70%;
+    }
+
+    .recover_block {
+        padding: 50px 40px;
+    }
+
+    .recover h3 {
+        font-size: 140%;
+    }
+}
