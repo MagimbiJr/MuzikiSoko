@@ -1,0 +1,23 @@
+.biography h2 {
+    font-size: 200%;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.profile_pic {
+    width: 100%;
+}
+
+.profile_pic img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.biography h4 {
+    font-size: 130%;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+/* .biography p {
+    margin-left: 10px;
+} */
