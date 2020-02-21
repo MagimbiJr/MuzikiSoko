@@ -1,0 +1,57 @@
+.artist_profile_wrapper {
+    display: flex;
+}
+
+.biography {
+    width: 40%;
+    padding: 0 50px;
+}
+
+.discography {
+    width: 60%;
+    padding: 0 50px;
+}
+
+
+@media (max-width: 1024px) {
+    .biography {
+        width: 35%;
+        padding: 0 10px;
+    }
+    .discography {
+        width: 65%;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 812px) {
+    .artist_profile_wrapper {
+        flex-direction: column;
+    }
+
+    .biography {
+        width: 100%;
+    }
+
+    .discography {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 414px) {
+    .album_details {
+        flex-direction: column;
+    }
+
+    .album_action,
+    .song_action {
+        margin: 2px 0;
+        padding: 5px 0;
+    }
+
+    .song_details {
+        flex-direction: column;
+        margin: 5px 0;
+    }
+}
