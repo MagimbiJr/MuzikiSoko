@@ -1,53 +1,56 @@
 .header {
-    background: linear-gradient(#0000002a, #0000002a), url(../../assets/img/mic.jpeg);
-    width: 100%;
-    height: 50vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
+  background: linear-gradient(#0000002a, #0000002a),
+    url(../../assets/img/mic.jpeg);
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .search_area {
-    width: 35%;
-    margin: 30px 0;
+  width: 45%;
+  margin: 30px 0;
 }
 
 .search_area input {
-    background: url('../../assets/img/search.svg') no-repeat;
-    padding: 8px;
-    background-position-x: 10px;
-    background-color: #e9e9e9;
-    color: #3a3a3a;
-    border: none;
-    border-radius: 10px;
-    font-size: 95%;
-    text-align: center;
-    width: 100%;
+  background: url("../../assets/img/search.svg") no-repeat;
+  padding: 8px;
+  background-position-x: 20px;
+  background-size: 25px;
+  background-position-y: center;
+  background-color: #e9e9e9e8;
+  color: #3a3a3a;
+  border: none;
+  border-radius: 26px;
+  font-size: 95%;
+  text-align: center;
+  width: 100%;
+  height: 50px;
 }
 
 .search_area input:focus {
-    outline: none;
+  outline: none;
 }
 
 @media (max-width: 1024px) {
-    .search_area {
-        width: 60%;
-    }
+  .search_area {
+    width: 60%;
+  }
 }
 
 @media (max-width: 414px) {
-    .search_area {
-        width: 100%;
-        margin-left: 50px;
-        margin-right: 50px;
-    }
+  .search_area {
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 
-    .search_area input {
-        background: none;
-        background-color: #e9e9e9;
-        
-    }
+  .search_area input {
+    background: none;
+    background-color: #e9e9e9;
+  }
 }
