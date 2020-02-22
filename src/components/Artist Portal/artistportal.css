@@ -1,0 +1,270 @@
+
+/* -----  PORTAL HEADER COMPONENT STYLES  ----- */
+
+.portal_header {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    column-gap: 70px;
+    row-gap: 20px;
+}
+
+.flex_separator {
+    flex: 1;
+}
+
+.greetings h5 {
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.profile {
+    width: 35%;
+}
+
+.profile img {
+    width: 100%;
+}
+
+.album_amount {
+    background-color: #d3c655;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album_amount span {
+    font-weight: 500;
+    font-size: 120%;
+    padding-bottom: 20px;
+}
+
+.album_amount h2 {
+    font-size: 200%;
+}
+
+.songs_amount {
+    background-color: #48dbfb;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.songs_amount span {
+    font-weight: 500;
+    font-size: 120%;
+    padding-bottom: 20px;
+}
+
+.songs_amount h2 {
+    font-size: 200%;
+}
+
+.downloads_amount {
+    background-color: #ff8686;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.downloads_amount span {
+    font-weight: 500;
+    font-size: 120%;
+    padding-bottom: 20px;
+}
+
+.downloads_amount h2 {
+    font-size: 200%;
+}
+
+.cash_amount {
+    background-color: #ff9ff3;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cash_amount span {
+    font-weight: 500;
+    font-size: 120%;
+    padding-bottom: 20px;
+}
+
+.cash_amount h2 {
+    font-size: 200%;
+}
+
+
+/* ------  PORTAL MAIN STYLES  ----- */
+
+.main_portal h2 {
+    margin-top: 5%;
+    margin-left: 20%;
+    font-size: 180%;
+    font-weight: 400;
+}
+
+.type_action {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.add_music_btn {
+    border: 1px solid #5f27cd;
+    padding: 8px 17px;
+    text-decoration: none;
+    background-color: #5f27cd;
+    color: #ffffff;
+    border-radius: 7px;
+    transition: .4s;
+}
+
+.add_music_btn:active {
+    background-color: #3f119b;
+}
+
+.add_music_btn i {
+    margin-left: 20px;
+    font-size: 90%;
+}
+
+
+/* ------  ALBUM STYLES  ------ */
+
+.album {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.album_details {
+    display: flex;
+    background-color: #692df5;
+    color: #ffffff;
+    padding: 5px 15px;
+    margin: 5px 0;
+}
+
+.album_details .third .song_details:nth-child(even) {
+    background-color: #ffffff;
+}
+
+
+.album_details i {
+    font-size: 130%;
+    padding-right: 5px;
+}
+
+.flex_separator_one {
+    flex: 1;
+}
+
+.price_label {
+    padding-top: 5px;
+    margin-right: 30px;
+}
+
+.album_action_edit {
+    padding: 2px 10px;
+    border: transparent;
+    border-radius: 5px;
+    margin: 0 7px;
+    background-color: #0e0c0c;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.album_action {
+    padding: 2px 10px;
+    border: transparent;
+    border-radius: 5px;
+    margin: 0 7px;
+    background-color: #ff2d2d;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.song_action_edit {
+    padding: 2px 10px;
+    border: transparent;
+    border-radius: 5px;
+    margin: 0 7px;
+    background-color: #3e3891;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.song_action {
+    padding: 2px 10px;
+    border: transparent;
+    border-radius: 5px;
+    margin: 0 7px;
+    background-color: #ff2d2d;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.album_action:focus,
+.song_action:focus {
+    outline: none;
+}
+
+.song_action {
+    padding: 0 20px;
+}
+
+.disabled {
+    background-color: #eba0a0;
+}
+
+
+.song_details {
+    display: flex;
+    background-color: #86aada;
+    color: #000000;
+    padding: 5px 15px;
+    margin: 5px 10px;
+}
+
+.song_details:nth-child(odd){
+    background-color: #ffffff;
+    margin: 0 10px;
+}
+
+
+
+@media (max-width: 812px) {
+    .album {
+        width: 100%;
+    }
+
+    .main_portal h2 {
+        margin-left: 10px;
+    }
+    
+    .type_action {
+        width: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+    .album_details,
+    .song_details {
+        flex-direction: column;
+    }
+
+    .album_action,
+    .album_action_edit,
+    .song_action,
+    .song_action_edit {
+        margin: 2px 0;
+        padding: 5px 0;
+    }
+}
