@@ -11,15 +11,6 @@
     margin: 5px 0;
 }
 
-.album_details .third .song_details:nth-child(even) {
-    background-color: #ffffff;
-}
-
-
-.album_details i {
-    font-size: 130%;
-    padding-right: 5px;
-}
 
 .flex_separator_one {
     flex: 1;
@@ -63,8 +54,31 @@
     margin: 5px 10px;
 }
 
-.song_details:nth-child(even){
+.song_details:nth-child(odd){
     background-color: #ffffff;
     margin: 0 10px;
+}
+
+.btn_paragraph {
+    display: flex;
+    align-items: center;
+}
+
+.toggle_down_btn,
+.play_pause_btn {
+    background-color: transparent;
+    border: none;
+    padding: 1px 5px;
+    font-size: 16px;
+}
+
+.toggle_down_btn:focus,
+.play_pause_btn:focus {
+    outline: none;
+}
+
+.toggle_down_btn i {
+    color: #ffffff;
+    padding: 0;
 }
 
