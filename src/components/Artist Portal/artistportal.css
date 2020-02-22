@@ -238,6 +238,30 @@
     margin: 0 10px;
 }
 
+.btn_paragraph {
+    display: flex;
+    align-items: center;
+}
+
+.toggle_down_btn,
+.play_pause_btn {
+    background-color: transparent;
+    border: none;
+    padding: 1px 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.toggle_down_btn:focus,
+.play_pause_btn:focus {
+    outline: none;
+}
+
+.toggle_down_btn i {
+    color: #ffffff;
+    padding: 0;
+}
+
 
 
 @media (max-width: 812px) {
