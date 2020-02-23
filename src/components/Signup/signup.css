@@ -10,11 +10,11 @@
     justify-content: center;
 }
 
-.signup h2 {
-    font-size: 220%;
-    font-weight: 400;
+.signup h3 {
     color: #ffffff;
-    padding-bottom: 40px;
+    font-size: 160%;
+    font-weight: 400;
+    padding-bottom: 20px;
 }
 
 .signup_block {

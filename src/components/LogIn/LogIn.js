@@ -1,10 +1,13 @@
 import React from 'react';
+import Toolbar from '../Toolbar/Toolbar'
 import { Link } from 'gatsby';
 
 import './login.css';
 
 export default () => (
-    <section className="login">
+    <>
+      <Toolbar />
+      <section className="login">
         <div className="login_block">
            <div className="input">
                 <i className="fas fa-envelope"></i>
@@ -21,5 +24,6 @@ export default () => (
                 <Link to="signup">Create Account</Link>
             </div>
         </div>
-    </section>
+      </section>
+    </>
 )
