@@ -1,8 +1,11 @@
 import React from 'react';
+import Toolbar from '../Toolbar/Toolbar';
 
 import './newpassword.css';
 
 export default () => (
+    <>
+    <Toolbar />
     <section className="new_pass">
         <h3>Please Enter Your New Password</h3>
         <div className="new_pass_block">
@@ -17,4 +20,5 @@ export default () => (
             <button type="submit" className="new_pass_btn">Send</button>
         </div>
     </section>
+    </>
 )

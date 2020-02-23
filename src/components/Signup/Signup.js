@@ -1,11 +1,14 @@
 import React from 'react';
+import Toolbar from '../Toolbar/Toolbar';
 import { Link } from 'gatsby';
 
 import './signup.css'
 
 export default () => (
+    <>
+    <Toolbar />
     <section className="signup">
-        <h2>Sign Up</h2>
+        <h3>Sign Up</h3>
         <div className="signup_block">
             <div className="signup_input">
                 <i className="fas fa-user"></i>
@@ -34,4 +37,5 @@ export default () => (
             <button type="submit" className="signup_btn">Sign Up</button>
         </div>
     </section>
+    </>
 )

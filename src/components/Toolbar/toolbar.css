@@ -6,6 +6,11 @@
     left: 0;
 }
 
+.toolbar_colored {
+    background-color: #010608;
+    display: none;
+}
+
 .toolbar_navs .logo {
     font-size: 190%;
     font-weight: 500;
