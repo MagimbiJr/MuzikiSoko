@@ -10,7 +10,7 @@ export default () => (
         <div className="type_action">
             <span>Albums</span>
             <span>Singles</span>
-            <Link to="/add music" className="add_music_btn">Add Music <i className="fas fa-plus"></i></Link>
+            <Link to="/addmusic" className="add_music_btn">Add Music <i className="fas fa-plus"></i></Link>
         </div>
         <Album />
     </div>
