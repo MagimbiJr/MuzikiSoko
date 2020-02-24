@@ -19,6 +19,13 @@ export default () => (
         Download
       </button>
     </div>
+    <div className="flex_separator_one"></div>
+    <p className="price_label">Ksh.500</p>
+    <button className="album_action">Buy Album</button>
+    <button className="album_action disabled" disabled>
+      Download
+    </button>
+
     <div className="song_details  ">
       <div className="btn_paragraph">
         <button className="play_pause_btn">

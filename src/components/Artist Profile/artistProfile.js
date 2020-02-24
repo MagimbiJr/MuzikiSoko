@@ -1,14 +1,13 @@
 import React from "react"
+import Toolbar from "../Toolbar/Toolbar"
 import Biography from "./Biography/Biography"
 import Discography from "./Discography/Discography"
-import Toolbar from "..//Toolbar/Toolbar"
-import Header from "../Header/Header"
+
 import "./artist profile.css"
 
 export default () => (
   <>
-    {/* <Toolbar /> */}
-    {/* <Header /> */}
+    <Toolbar />
     <section className="artist_profile">
       <div className="container">
         <div className="artist_profile_wrapper">
