@@ -40,6 +40,11 @@
     padding: 5px 10px;
 }
 
+.add_music_input:last-child {
+    border: none;
+    margin-top: 30px;
+}
+
 .add_music_input i {
     font-size: 120%;
     padding-right: 10px;
