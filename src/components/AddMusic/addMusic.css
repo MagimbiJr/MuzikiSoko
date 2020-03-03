@@ -88,6 +88,18 @@ textarea {
     padding: 5px 0;
 }
 
+.action_btn {
+    margin: 3px 0;
+    padding: 0 3px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid transparent;
+}
+
+.action_btn:focus {
+    outline: none;
+}
+
 .action {
     display: flex;
     flex-direction: column;
@@ -106,4 +118,21 @@ textarea {
 .status,
 .price{
     margin: 0 15px;
+}
+
+
+@media (max-width: 414px) {
+    .add_music_block {
+        padding: 20px 15px;
+    }
+}
+
+@media (max-width: 360px) {
+    .add_music_block {
+        padding: 10px 5px;
+    }
+
+    .upload_progress {
+        justify-content: space-between;
+    }
 }

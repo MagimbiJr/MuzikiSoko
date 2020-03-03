@@ -34,10 +34,10 @@ export default () => (
                 </div>
                 <div className="action">
                     <h5>Action</h5>
-                    <p><i className="fas fa-times"></i></p>
-                    <p><i className="fas fa-times"></i></p>
-                    <p><i className="fas fa-times"></i></p>
-                    <p><i className="fas fa-times"></i></p>
+                    <button className="action_btn"><i className="fas fa-times"></i></button>
+                    <button className="action_btn"><i className="fas fa-times"></i></button>
+                    <button className="action_btn"><i className="fas fa-times"></i></button>
+                    <button className="action_btn"><i className="fas fa-times"></i></button>
                 </div>
             </div>
             <button type="submit" className="submit_btn">Save</button>
