@@ -12,3 +12,7 @@ html {
     width: 90%;
     margin: 0 auto;
 }
+
+.tab_active {
+    background-color: #ffffff;
+}
