@@ -1,0 +1,292 @@
+/* ------  ABOUT Header  ------- */
+
+.about_us_header {
+    background: linear-gradient(#0000008e, #0000008e), url('../../assets/img/Headphones-2.jpeg') no-repeat;
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.about_header_content {
+    width: 40%;
+}
+
+.about_header_content h2 {
+    font-size: 200%;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.about_header_content h4 {
+    margin-top: 50px;
+    font-size: 140%;
+    color: #ffffff;
+}
+
+.about_to_contact {
+    margin-top: 15px;
+    display: flex;
+}
+
+.about_to_contact p {
+    color: #ffffff;
+    padding-right: 10px;
+    font-size: 102%;
+}
+
+.about_to_contact a {
+    color: #adadad;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.about_to_contact a:hover {
+    color: #ffffff;
+}
+
+
+/* --------  ABOUT CONTENT  --------- */
+
+.tab {
+    display: flex;
+}
+
+.tab button {
+    width: 25%;
+    padding: 25px 0;
+    font-size: 100%;
+    border: transparent;
+    background-color: #145986;
+    color: #ffffff;
+    transition: .3s;
+}
+
+.tab button:hover {
+    background-color: #ffffff;
+    color: #242424;
+}
+
+.tab button:focus {
+    outline: none;
+}
+
+.tab button:active {
+    background-color: #ffffff;
+}
+
+
+
+.about_cont_wrapper {
+    width: 40%;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.mission {
+    margin-bottom: 50px;
+}
+
+.mission p {
+    padding-bottom: 15px;
+}
+
+.mission,
+.what_we_team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.about_cont_wrapper i {
+    font-size: 250%;
+    color: #145986;
+    margin-bottom: 20px;
+}
+
+
+.about_content h1 {
+    font-size: 260%;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.about_cont_wrapper p {
+    color: #9c9c9c;
+    line-height: 1.5;
+}
+
+.our_team_section {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.our_team_section h1 {
+    margin-bottom: 30px;
+}
+
+.our_team {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.our_team i {
+    font-size: 250%;
+    color: #145986;
+    margin-bottom: 20px;
+}
+
+.img_right,
+.img_left {
+    width: 90%;
+    display: flex;
+}
+
+.feat_photo {
+    width: 50%;
+}
+
+.feat_photo img {
+    width: 100%;
+}
+
+.img_right .photo_info {
+    width: 50%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.img_left .photo_info {
+    width: 50%;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.photo_info h4 {
+    font-size: 150%;
+    font-weight: 500;
+    color: #242d36;
+    margin-bottom: 8px;
+}
+
+.photo_info span {
+    color: #5f5f5f;
+}
+
+.photo_info span::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 200px;
+    margin-top: 17px;
+    background-color: #8a8a8a;
+}
+
+.photo_info p {
+    margin-top: 17px;
+    color: #9c9c9c;
+    line-height: 1.5;
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.social i {
+    font-size: 150%;
+    color: #2a2e2e;
+    margin: 0 3px;
+}
+
+
+@media (max-width: 1024px) {
+    .our_team {
+        width: 100%;
+    }
+
+    .about_header_content {
+        width: 100%;
+    }
+
+    .about_header_content h4 {
+        margin-top: 17px;
+    }
+
+    .about_to_contact {
+        margin-top: 8px;
+    }
+
+    .about_cont_wrapper {
+        width: 70%;
+    }
+
+    .photo_info h4 {
+        margin-bottom: 5px;
+    }
+
+    .photo_info span::after {
+        margin-top: 7px;
+    }
+
+    .photo_info p {
+        margin-top: 7px;
+    }
+
+    .social {
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 414px) {
+    .about_cont_wrapper {
+        width: 100%;
+    }
+
+    
+    .img_right {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .img_left {
+        flex-direction: column-reverse;
+        padding-bottom: 20px;
+    }
+
+    .feat_photo {
+        width: 100%;
+    }
+
+    .img_right .photo_info {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .img_left .photo_info {
+        width: 100%;
+        padding-right: 0;
+    }
+}
+
+
+
