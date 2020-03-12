@@ -8,8 +8,8 @@
 }
 
 .toolbar_colored {
-    background-color: #010608;
-    display: none;
+  background-color: #010608;
+  /* display: none; */
 }
 
 .toolbar_navs .logo {

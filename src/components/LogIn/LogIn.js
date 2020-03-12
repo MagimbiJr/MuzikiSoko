@@ -1,11 +1,18 @@
-import React, { useState } from "react"
+import React, { useEffect } from "react"
 import { Link } from "gatsby"
 import API from "../../helpers/api"
 import "./login.css"
 import { Formik } from "formik"
 import { validateLogin } from "../../helpers/validation"
-
+import { redirectTo } from "@reach/router"
+import { navigate } from "gatsby"
 export default () => {
+  useEffect(() => {
+    if (localStorage.getItem("access_token")) {
+      navigate("/")
+      return
+    }
+  }, [])
   return (
     <section className="login">
       <div className="login_block">
@@ -19,7 +26,8 @@ export default () => {
                 password: values.password,
               })
 
-              localStorage.setItem("access_token", res.data.AccessToken)
+              localStorage.setItem("access_token", res.data.accessToken)
+              navigate("/artist-profile")
             } catch (error) {
               //TODO: Some error handling mechanism
             }
