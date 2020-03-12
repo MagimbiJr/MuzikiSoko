@@ -20,3 +20,7 @@ div.input.errored {
 .error-message {
   color: red;
 }
+
+.tab_active {
+  background-color: #ffffff;
+}

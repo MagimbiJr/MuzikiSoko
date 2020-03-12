@@ -1,0 +1,138 @@
+.add_music {
+    background: linear-gradient(#0000008e, #0000008e), url('../../assets/img/guitar-2.jpg');
+    width: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.add_music h3 {
+    color: #ffffff;
+    font-size: 160%;
+    font-weight: 400;
+    padding-bottom: 20px;
+    /* margin-top: 70px */
+}
+
+.add_music_block {
+    background-color: #f2f2f3;
+    border-radius: 7px;
+    padding: 60px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 2px #9c9c9c;
+}
+
+.add_music_block h4 {
+    font-size: 125%;
+    font-weight: 400;
+}
+
+.add_music_input {
+    border-bottom: 1px solid #c5d7e9;
+    margin: 15px 0;
+    padding: 5px 10px;
+}
+
+.add_music_input:last-child {
+    border: none;
+    margin-top: 30px;
+}
+
+.add_music_input i {
+    font-size: 120%;
+    padding-right: 10px;
+    color: #145986;
+}
+
+.submit_btn {
+    padding: 10px 60px;
+    margin-top: 20px;
+    background-color: #145986;
+    color: #ffffff;
+    border: 1px solid #145986;
+    border-radius: 20px;
+    font-size: 105%;
+    transition: .3s;
+}
+
+.submit_btn:focus {
+    outline: none;
+}
+
+.submit_btn:active {
+    background-color: #08273b;
+    transition: .3s;
+}
+
+textarea {
+    padding: 15px 30px;
+    font-size: 115%;
+    border-radius: 7px;
+    border: 1px solid #c5d7e9;
+    margin: 10px 0;
+}
+
+.upload_progress {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.upload_progress p {
+    padding: 5px 0;
+}
+
+.action_btn {
+    margin: 3px 0;
+    padding: 0 3px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid transparent;
+}
+
+.action_btn:focus {
+    outline: none;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action i {
+    color: #18972b;
+    transition: .4s;
+}
+
+.action i:hover {
+    color: #d31e1e;
+}
+
+.status,
+.price{
+    margin: 0 15px;
+}
+
+
+@media (max-width: 414px) {
+    .add_music_block {
+        padding: 20px 15px;
+    }
+}
+
+@media (max-width: 360px) {
+    .add_music_block {
+        padding: 10px 5px;
+    }
+
+    .upload_progress {
+        justify-content: space-between;
+    }
+}
